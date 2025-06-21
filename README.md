@@ -82,6 +82,34 @@ tasktrackr-api/
 └── README.md
 ```
 
+## ✅ Testing Implementation
+
+### 🧪 Running Tests
+
+Install all dependencies:
+```bash
+npm install
+```
+
+Run tests with coverage:
+```bash
+npm test
+```
+
+### 🧰 Testing Tools Used
+
+- **Jest** – Unit testing framework
+- **Supertest** – API testing via HTTP
+- **mongodb-memory-server** – In-memory MongoDB for isolated integration tests
+
+### 📊 Test Coverage Report
+
+Achieved over 85% test coverage across all files.
+
+### 📸 Coverage Screenshot
+
+![Test Coverage](test_summary.png)
+
 ## 👨‍💻 Author
 
 **Dhruv Gupta**  
